@@ -1,0 +1,5 @@
+User-agent: msnbot-media 
+Allow: /*
+
+User-agent: *
+Allow: /*

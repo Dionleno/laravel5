@@ -1,0 +1,134 @@
+.div-more.base{
+    background: url('../images/contbg02.jpg') no-repeat;
+    background-size: cover;
+    padding: 40px 0px;
+}
+.logo-pagamento{text-align: center;padding: 0 0 40px;}
+.iten {
+    padding-top: 0px;
+    padding-bottom: 26px;
+    font-size: 22px;
+    color: #5c5b5b;
+    font-size: 18px;
+}
+.logofixed {
+    position: fixed;
+    left: 10px;
+    top: 20px;
+    
+    z-index: 600;
+}
+
+.tdblack{
+    background: url('../images/px_azulescuro.png');
+    padding:20px 30px !important; 
+    height: 650px;
+}
+.tdwhite{
+    background: url('../images/px_branco.png');
+    padding:20px 30px !important;
+    height: 650px; 
+}
+ 
+#section-black h3.listheading {
+	font-size: 18px; 
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'PT Mono', monospace;
+	font-weight: bold;
+    color: #FFF;
+}
+#section-black .list-group {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: none;
+	background-color: transparent;
+	border-radius: 0;
+}
+#section-black .list-group-item {
+	font-size: 16px;
+	margin-bottom: 10px;
+	border: #ff3c78 2px solid;
+	 
+	border-radius: 0;
+	 
+	line-height: normal;
+	font-weight: normal;
+	padding: 5px 15px;
+    color: #FFF;
+    background: transparent;
+}
+#section-black .certificado {
+	color: #ffffff;
+	font-size: 18px;
+	background-image: url(../images/px_rosa.png);
+	font-weight: bold;
+	padding: 25px 15px;
+}
+#section-black .interbox {
+	margin-top: 20px;
+}
+#section-black .interbox .contimg {
+	padding: 5px;
+}
+
+.list-footer ul{list-style: none;padding: 0;}
+ 
+.foot-h1 {
+    font-size: 30px;
+    line-height: 52px;
+    text-align: left;
+    margin: 0;
+}
+strong.faixa-preco{font-size: 16px;}
+
+.label-form {
+    margin-bottom: 7px;
+    color: #353341;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+    text-transform: uppercase;
+}
+.field-footer {
+    width: 100%;
+    height: 40px;
+    display: block;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #555555;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    box-shadow: none;
+}
+.btn{border-radius: 0;}
+.btn-default, .btn-default:hover {
+    color: #fff;
+    background-color: #0eadce;
+    border-color: #0eadce;
+}
+.thankyou{padding:20px 80px !important;}
+
+@media (max-width: 767px) {
+.tdblack{
+    background: url('../images/px_azulescuro.png');
+    padding:15px !important; 
+    height: auto;
+}
+.tdwhite{
+    background: url('../images/px_branco.png');
+    padding:15px !important;
+    height: auto; 
+}
+.fp-auto-height-responsive {
+    height: auto !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+#tdwhite{padding: 0;}
+.informacaoDoCartao .col-sm-12 ,.informacaoDoCartao .col-sm-6{padding: 0;}
+.thankyou{padding:20px 15px !important;}
+}

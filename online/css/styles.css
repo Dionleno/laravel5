@@ -1,0 +1,89 @@
+
+.scene {
+  padding: 0;
+  margin: 0;
+}
+.grafscontainer {
+	position: fixed;
+	z-index: 100;
+}
+.graf01 {
+	position: relative;
+	right: -1120px;
+	top: -80px;
+}
+.graf02 {
+	position: relative;
+	left: -280px;
+	top: 550px;
+}
+.graf03 {
+	position: relative;
+	left: 0px;
+	top: 10px;
+}
+.graf04 {
+	position: relative;
+	right: -1200px;
+	top: 300px;
+}
+.graf05 {
+	position: relative;
+	left: 380px;
+	top: 640px;
+}
+.graf06 {
+	position: relative;
+	right: -1000px;
+	top: 600px;
+}
+
+.container--offset {
+  margin-left: 10%;
+}
+
+.scene {
+  padding: 0;
+  margin: 0;
+}
+
+.layer:nth-child(1) {
+  opacity: 0.60;
+}
+.layer:nth-child(1) button {
+  -webkit-transform: rotate(150deg);
+}
+
+.layer:nth-child(2) {
+  opacity: 0.60;
+}
+.layer:nth-child(2) button {
+  -webkit-transform: rotate(120deg);
+}
+
+.layer:nth-child(3) {
+  opacity: 0.90;
+}
+.layer:nth-child(3) button {
+  -webkit-transform: rotate(90deg);
+}
+
+.layer:nth-child(4) {
+  opacity: 0.90;
+}
+.layer:nth-child(4) button {
+  -webkit-transform: rotate(60deg);
+}
+
+.layer:nth-child(5) {
+  opacity: 0.70;
+}
+.layer:nth-child(5) button {
+  -webkit-transform: rotate(30deg);
+}
+
+.layer:nth-child(6) {
+  opacity: 0.70;
+}
+.layer:nth-child(6) button {
+}
